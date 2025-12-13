@@ -162,8 +162,10 @@ body {
   color: white;
   padding: 16px;
   font-size: 16px;
-  border: none;
+  border:none;
   cursor: pointer;
+  position: relative; 
+  left: 40px;
 }
 
 .dropbtn:hover, .dropbtn:focus {
@@ -173,6 +175,7 @@ body {
 .dropdown {
   position: relative;
   display: inline-block;
+  left: -60px;
 }
 
 .dropdown-content {
