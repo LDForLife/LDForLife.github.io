@@ -4,23 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maintenance Example</title>
-    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="styles.css"> 
+    <script src="svw.js"></script>
 </head>
 <body>
 
-    <header>
-    <nav id="main-nav">
-        <div class="logo">
-           <img src="logo.png" width="80">
-        </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="government.html">Government</a></li>
-        </ul>
-    </nav>
+<header class="header-outer">
+	<div class="header-inner responsive-wrapper">
+		<div class="header-logo">
+			<img src="logo.png"/>
+		</div>
+		<nav class="header-navigation">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="services.html">Services</a>
+			<a href="government.html">Government</a>
+            <a href="contact.html">Contact Us</a>
+			<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn">Menu</button>
+  <div id="myDropdown" class="dropdown-content">
+			<a href="index.html">Home</a>
+			<a href="about.html">About</a>
+			<a href="services.html">Services</a>
+			<a href="government.html">Government</a>
+            <a href="contact.html">Contact</a>
+  </div>
+</div>
+
+
+		</nav>
+	</div>
 </header>
     <div class="container">
         <header>
@@ -39,7 +52,7 @@
         Founder Marie Jean-Louis launched the company in 2022 in Miami, Florida. As a single mother from a low-income background, Marie intimately understood the challenges of securing suitable housing. Her work is rooted in extensive research and education across the complexities of the housing market, zoning regulations, and construction methodologies. This pursuit of knowledge was pivotal in assembling a team of passionate professionals, including architects, designers, and financial experts.
     </p>
     
-    <h3>Sustainable and Affordable Approach</h3>
+    <h2>Sustainable and Affordable Approach</h2>
     <p>
         Sovereign Woman Services specializes in developing environmentally sustainable and affordable housing solutions. Our approach involves acquiring and revitalizing neglected properties in underserved areas, incorporating energy-efficient features to reduce living costs and environmental impact. This strategy contributes to long-term community revitalization.
     </p>
@@ -48,6 +61,9 @@
     </p>
 
     <h2>Meet the Founder & CEO: Marie A. JeanLouis</h2>
+    <section>
+        <img class="headshot" src="MarieHeadshot.jpg">
+    </section>
     <div class="founder-bio">
         <p>
             Born and raised in Haiti as the sixth of eight siblings, Marie embarked on a life-altering journey to the United States in 2000 at the age of 27, with her 2-year-old son, Louis, by her side. She navigated life in a new country as a single mother, facing rejection from government assistance programs, juggling two jobs, and attending school full-time.
