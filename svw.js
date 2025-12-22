@@ -17,3 +17,16 @@ window.onclick = function(event) {
     }
   }
 }
+
+// Function to close the popup
+function closePopup() {
+  document.getElementById("construction-overlay").style.display = "none";
+}
+
+// Close if user clicks outside the box
+window.onclick = function(event) {
+  var overlay = document.getElementById("construction-overlay");
+  if (event.target == overlay) {
+    overlay.style.display = "none";
+  }
+}
