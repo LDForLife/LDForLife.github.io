@@ -61,7 +61,7 @@ body {
 /* Styling of other elements */
 .header-logo img {
 	display: block;
-	height: calc(var(--header-inner-height) - 30px);
+	height: calc(var(--header-outer-height) - 40px);
 }
 
 .header-navigation {
